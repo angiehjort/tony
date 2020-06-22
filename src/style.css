@@ -1,0 +1,21 @@
+* {
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+.led-row {
+  height: 17px;
+}
+.led {
+  border-radius: 2px;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  background: #525252;
+  display: inline-block;
+}
