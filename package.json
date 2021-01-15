@@ -21,9 +21,13 @@
     "build"
   ],
   "dependencies": {
+    "axios": "^0.21.1",
+    "canvas": "^2.6.1",
     "d3": "^5.16.0",
     "mobx": "^5.15.4",
-    "ms": "^2.0.0"
+    "ms": "^2.0.0",
+    "node-fetch-polyfill": "^2.0.6",
+    "node-sense-hat": "0.0.2"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
