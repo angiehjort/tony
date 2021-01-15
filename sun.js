@@ -115,7 +115,7 @@ class Sun extends App {
       return new Promise((resolve, reject)=>{setTimeout(()=>{
         clearInterval(interval);
         resolve();
-      }, 10000)});
+      }, 60000)});
     }
 
 }

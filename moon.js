@@ -149,7 +149,7 @@ class Moon extends App {
     return new Promise((resolve, reject)=>{setTimeout(()=>{
       if(interval) clearInterval(interval);
       resolve();
-    }, 10000)});
+    }, 60000)});
       
   }
 
