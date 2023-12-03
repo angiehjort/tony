@@ -34,8 +34,8 @@ class Advent extends App {
           '2023-12-17 16:30',
           '2023-12-24 16:30'
       ].map(m => d3timeformat.timeParse("%Y-%m-%d %H:%M")(m));
-            
-      const candleLifespan = 28*24*60*60*1000;
+
+      const candleLifespan = 28*24*60*60*1000; //28 days
 
       const now = new Date();
 
@@ -43,7 +43,7 @@ class Advent extends App {
         if(now < m) return 1; // candle isn't lit yet
         return 1 - (now - m) / candleLifespan;
       });
-      
+
       const pattern = `
          O, C0, O, C1, O, C2, O, C3,
          O, C0, O, C1, O, C2, O, C3,
