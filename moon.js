@@ -135,7 +135,7 @@ class Moon extends App {
     }
     
 
-    let value = this.data.moonposition. phase;
+    let value = this.data.moonposition.phase;
       
     
     if (value < 8 || value > 92) {

@@ -53,7 +53,7 @@ class Temperature extends App {
 
       return new Promise((resolve, reject)=>{setTimeout(()=>{
         resolve();
-      }, 60000)});
+      }, 3000)});
     }
 
 }
